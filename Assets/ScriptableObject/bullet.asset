@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e1898fff53ca0546a7123f6ad680b32, type: 3}
+  m_Name: bullet
+  m_EditorClassIdentifier: 
+  speed: 10
+  lifeTime: 8
+  damage: 20
+  poolingPrefab: {fileID: 4545840922157058366, guid: dd10f1fdbee644f459c2b085721ff2f2, type: 3}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  source: {fileID: 0}
+  fireSound: {fileID: 0}
